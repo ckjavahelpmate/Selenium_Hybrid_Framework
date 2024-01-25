@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class BooksPage {
+//	Only static locators
 
 	@FindBy( xpath = "//a[ text() = 'Fiction EX']" )
 	private WebElement fictionEX ;
