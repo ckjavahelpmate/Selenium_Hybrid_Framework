@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+<testng-results ignored="8" total="22" passed="11" failed="3" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Home Page is Displayed]]>
@@ -8,6 +8,9 @@
       <![CDATA[Home Page is Displayed]]>
     </line>
     <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
       <![CDATA[Login page is displayed]]>
     </line>
     <line>
@@ -17,19 +20,76 @@
       <![CDATA[Login page is displayed]]>
     </line>
     <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User loged In]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
       <![CDATA[Register Page is Displayed]]>
     </line>
     <line>
       <![CDATA[User loged In]]>
     </line>
     <line>
+      <![CDATA[Register Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
       <![CDATA[User loged In]]>
+    </line>
+    <line>
+      <![CDATA[Computers Page Is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User loged In]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
     </line>
     <line>
       <![CDATA[Books Page Is Displayed]]>
     </line>
     <line>
+      <![CDATA[Computers Page Is Displayed]]>
+    </line>
+    <line>
       <![CDATA[Digital Downloads Page Is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[User loged In]]>
+    </line>
+    <line>
+      <![CDATA[User loged In]]>
+    </line>
+    <line>
+      <![CDATA[Digital Downloads Page Is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Wish List Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Books Page Is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[User Registeredm successfully]]>
     </line>
     <line>
       <![CDATA[User Registeredm successfully]]>
@@ -50,6 +110,15 @@
       <![CDATA[All Added Products are displayed]]>
     </line>
     <line>
+      <![CDATA[Shopping Cart Page Is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[All Added Products are displayed]]>
+    </line>
+    <line>
+      <![CDATA[All Added Products are removed from Cart]]>
+    </line>
+    <line>
       <![CDATA[All Added Products are removed from Cart]]>
     </line>
     <line>
@@ -59,9 +128,6 @@
       <![CDATA[Register Page is Displayed]]>
     </line>
     <line>
-      <![CDATA[User Registeredm successfully]]>
-    </line>
-    <line>
       <![CDATA[Home Page is Displayed]]>
     </line>
     <line>
@@ -71,25 +137,59 @@
       <![CDATA[User Registeredm successfully]]>
     </line>
     <line>
+      <![CDATA[User Registeredm successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
       <![CDATA[Home Page is Displayed]]>
     </line>
     <line>
       <![CDATA[Register Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Register Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[User Registeredm successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Registeredm successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Register Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Register Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[User Registeredm successfully]]>
     </line>
     <line>
       <![CDATA[User Registeredm successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-29T12:58:43 IST" name="Suite" finished-at="2024-01-29T12:59:10 IST" duration-ms="27335">
+  <suite started-at="2024-01-29T14:16:18 IST" name="Suite" finished-at="2024-01-29T14:16:58 IST" duration-ms="40697">
     <groups>
     </groups>
-    <test started-at="2024-01-29T12:58:43 IST" name="Test" finished-at="2024-01-29T12:59:10 IST" duration-ms="27335">
+    <test started-at="2024-01-29T14:16:18 IST" name="EdgeTest" finished-at="2024-01-29T14:16:58 IST" duration-ms="40300">
       <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@5c33f1a9]" started-at="2024-01-29T12:58:43 IST" name="launchBrowser" finished-at="2024-01-29T12:58:47 IST" duration-ms="4299" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:18 IST" name="beforeSuite" finished-at="2024-01-29T14:16:18 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:18 IST" name="launchBrowser" finished-at="2024-01-29T14:16:27 IST" duration-ms="8705" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
           </params>
@@ -99,7 +199,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@5c33f1a9]" started-at="2024-01-29T12:58:47 IST" name="login" finished-at="2024-01-29T12:58:49 IST" duration-ms="1307" status="PASS">
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:27 IST" name="login" finished-at="2024-01-29T14:16:29 IST" duration-ms="2331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +216,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@5c33f1a9]" started-at="2024-01-29T12:58:49 IST" name="addProductToWishList" finished-at="2024-01-29T12:58:52 IST" duration-ms="3181" status="PASS">
+        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:29 IST" name="addProductToWishList" finished-at="2024-01-29T14:16:34 IST" duration-ms="4715" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Books Page Is Displayed]]>
@@ -132,17 +232,124 @@
             </line>
           </reporter-output>
         </test-method> <!-- addProductToWishList -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@5c33f1a9]" started-at="2024-01-29T12:58:52 IST" name="logout" finished-at="2024-01-29T12:58:53 IST" duration-ms="837" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:34 IST" name="logout" finished-at="2024-01-29T14:16:35 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@5c33f1a9]" started-at="2024-01-29T12:58:53 IST" name="closeBrowser" finished-at="2024-01-29T12:58:53 IST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:35 IST" name="closeBrowser" finished-at="2024-01-29T14:16:35 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@4218d6a3]" started-at="2024-01-29T14:16:59 IST" name="afterSuite" finished-at="2024-01-29T14:16:59 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest -->
+      <class name="com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@76505305]" started-at="2024-01-29T14:16:18 IST" name="launchBrowser" finished-at="2024-01-29T14:16:25 IST" duration-ms="6824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@76505305]" started-at="2024-01-29T14:16:25 IST" name="login" finished-at="2024-01-29T14:16:27 IST" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User loged In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@76505305]" started-at="2024-01-29T14:16:27 IST" name="addProductToWishList" finished-at="2024-01-29T14:16:48 IST" duration-ms="21129" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.83)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b9b3543f96b4d0634bc2730a1d3a375e, clickElement {id=A9314D1622EAC39CB0D587160CD541DB_element_95}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53876}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53876/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b9b3543f96b4d0634bc2730a1d3a375e)] -> xpath: //a[ @href = '/desktops']]
+Session ID: b9b3543f96b4d0634bc2730a1d3a375e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.83)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b9b3543f96b4d0634bc2730a1d3a375e, clickElement {id=A9314D1622EAC39CB0D587160CD541DB_element_95}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53876}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53876/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b9b3543f96b4d0634bc2730a1d3a375e)] -> xpath: //a[ @href = '/desktops']]
+Session ID: b9b3543f96b4d0634bc2730a1d3a375e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList(TC004_VerifyUsrIsAbleToPlaceOrderTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Computers Page Is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@76505305]" started-at="2024-01-29T14:16:48 IST" name="logout" finished-at="2024-01-29T14:16:49 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@76505305]" started-at="2024-01-29T14:16:49 IST" name="closeBrowser" finished-at="2024-01-29T14:16:49 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest -->
       <class name="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest">
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4567f35d]" started-at="2024-01-29T12:58:44 IST" name="register" data-provider="register" finished-at="2024-01-29T12:58:52 IST" duration-ms="7934" status="PASS">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@14cd1699]" started-at="2024-01-29T14:16:19 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:32 IST" duration-ms="12872" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +389,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4567f35d]" started-at="2024-01-29T12:58:52 IST" name="register" data-provider="register" finished-at="2024-01-29T12:58:58 IST" duration-ms="6487" status="PASS">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@14cd1699]" started-at="2024-01-29T14:16:32 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:40 IST" duration-ms="7936" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,7 +429,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4567f35d]" started-at="2024-01-29T12:58:58 IST" name="register" data-provider="register" finished-at="2024-01-29T12:59:04 IST" duration-ms="6201" status="PASS">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@14cd1699]" started-at="2024-01-29T14:16:40 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:52 IST" duration-ms="12051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,7 +469,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4567f35d]" started-at="2024-01-29T12:59:04 IST" name="register" data-provider="register" finished-at="2024-01-29T12:59:10 IST" duration-ms="6016" status="PASS">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@14cd1699]" started-at="2024-01-29T14:16:52 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:58 IST" duration-ms="6467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,15 +511,11 @@
         </test-method> <!-- register -->
       </class> <!-- com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest -->
       <class name="com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:58:43 IST" name="beforeSuite" finished-at="2024-01-29T12:58:43 IST" duration-ms="186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:58:43 IST" name="launchBrowser" finished-at="2024-01-29T12:58:48 IST" duration-ms="4526" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@77888435]" started-at="2024-01-29T14:16:18 IST" name="launchBrowser" finished-at="2024-01-29T14:16:26 IST" duration-ms="8320" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
           </params>
@@ -322,7 +525,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:58:48 IST" name="login" finished-at="2024-01-29T12:58:49 IST" duration-ms="1302" status="PASS">
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@77888435]" started-at="2024-01-29T14:16:26 IST" name="login" finished-at="2024-01-29T14:16:28 IST" duration-ms="2174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -339,7 +542,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:58:49 IST" name="addProductToWishList" finished-at="2024-01-29T12:58:55 IST" duration-ms="5742" status="PASS">
+        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@77888435]" started-at="2024-01-29T14:16:28 IST" name="addProductToWishList" finished-at="2024-01-29T14:16:35 IST" duration-ms="7059" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Digital Downloads Page Is Displayed]]>
@@ -355,19 +558,446 @@
             </line>
           </reporter-output>
         </test-method> <!-- addProductToWishList -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:58:55 IST" name="logout" finished-at="2024-01-29T12:58:55 IST" duration-ms="705" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@77888435]" started-at="2024-01-29T14:16:35 IST" name="logout" finished-at="2024-01-29T14:16:36 IST" duration-ms="765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:58:55 IST" name="closeBrowser" finished-at="2024-01-29T12:58:56 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@77888435]" started-at="2024-01-29T14:16:36 IST" name="closeBrowser" finished-at="2024-01-29T14:16:36 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@7f0eb4b4]" started-at="2024-01-29T12:59:10 IST" name="afterSuite" finished-at="2024-01-29T12:59:11 IST" duration-ms="243" status="PASS">
+      </class> <!-- com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-01-29T14:16:18 IST" name="ChromeTest" finished-at="2024-01-29T14:16:58 IST" duration-ms="40697">
+      <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@158d2680]" started-at="2024-01-29T14:16:18 IST" name="launchBrowser" finished-at="2024-01-29T14:16:24 IST" duration-ms="6485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@158d2680]" started-at="2024-01-29T14:16:24 IST" name="login" finished-at="2024-01-29T14:16:26 IST" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.addProductToWishList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User loged In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@158d2680]" started-at="2024-01-29T14:16:26 IST" name="addProductToWishList" finished-at="2024-01-29T14:16:50 IST" duration-ms="23125" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[ text() = 'Fiction EX']"}
+  (Session info: chrome=120.0.6099.227)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12d4eb1ecff784b3081354904a72e1c8, findElement {using=xpath, value=//a[ text() = 'Fiction EX']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53831/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12d4eb1ecff784b3081354904a72e1c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[ text() = 'Fiction EX']"}
+  (Session info: chrome=120.0.6099.227)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12d4eb1ecff784b3081354904a72e1c8, findElement {using=xpath, value=//a[ text() = 'Fiction EX']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53831/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12d4eb1ecff784b3081354904a72e1c8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+at com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.addProductToWishList(TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Books Page Is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Wish List Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@158d2680]" started-at="2024-01-29T14:16:50 IST" name="logout" finished-at="2024-01-29T14:16:51 IST" duration-ms="1291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest@158d2680]" started-at="2024-01-29T14:16:51 IST" name="closeBrowser" finished-at="2024-01-29T14:16:51 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest -->
+      <class name="com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@6adbc9d]" started-at="2024-01-29T14:16:18 IST" name="launchBrowser" finished-at="2024-01-29T14:16:24 IST" duration-ms="6131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@6adbc9d]" started-at="2024-01-29T14:16:24 IST" name="login" finished-at="2024-01-29T14:16:26 IST" duration-ms="2037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User loged In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@6adbc9d]" started-at="2024-01-29T14:16:26 IST" name="addProductToWishList" finished-at="2024-01-29T14:16:47 IST" duration-ms="21012" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=120.0.6099.227)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5761f1ce12e20b0eb86581a8c5f685ef, clickElement {id=D262F10E950EC0A65BF836AFD7B26DA3_element_93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53832/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5761f1ce12e20b0eb86581a8c5f685ef)] -> xpath: //a[ @href = '/desktops']]
+Session ID: 5761f1ce12e20b0eb86581a8c5f685ef]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.227)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5761f1ce12e20b0eb86581a8c5f685ef, clickElement {id=D262F10E950EC0A65BF836AFD7B26DA3_element_93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53832/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5761f1ce12e20b0eb86581a8c5f685ef)] -> xpath: //a[ @href = '/desktops']]
+Session ID: 5761f1ce12e20b0eb86581a8c5f685ef
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList(TC004_VerifyUsrIsAbleToPlaceOrderTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Computers Page Is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@6adbc9d]" started-at="2024-01-29T14:16:47 IST" name="logout" finished-at="2024-01-29T14:16:48 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest@6adbc9d]" started-at="2024-01-29T14:16:48 IST" name="closeBrowser" finished-at="2024-01-29T14:16:49 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest -->
+      <class name="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4550bb58]" started-at="2024-01-29T14:16:19 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:32 IST" duration-ms="13640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sheela]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gowda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sheela@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sheela@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sheela@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Register Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[User Registeredm successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4550bb58]" started-at="2024-01-29T14:16:32 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:41 IST" duration-ms="8142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leela]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nayak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Leela@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Leela@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Leela@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Register Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[User Registeredm successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4550bb58]" started-at="2024-01-29T14:16:41 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:52 IST" duration-ms="11315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gowda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mala@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mala@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mala@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Register Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[User Registeredm successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest@4550bb58]" started-at="2024-01-29T14:16:52 IST" name="register" data-provider="register" finished-at="2024-01-29T14:16:58 IST" duration-ms="6630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Urmila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Urmila@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Urmila@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Urmila@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Register Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[User Registeredm successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest -->
+      <class name="com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@4ec4f3a0]" started-at="2024-01-29T14:16:18 IST" name="launchBrowser" finished-at="2024-01-29T14:16:25 IST" duration-ms="7004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@4ec4f3a0]" started-at="2024-01-29T14:16:25 IST" name="login" finished-at="2024-01-29T14:16:27 IST" duration-ms="2094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest.addProductToWishList() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User loged In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToWishList()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@4ec4f3a0]" started-at="2024-01-29T14:16:27 IST" name="addProductToWishList" finished-at="2024-01-29T14:16:35 IST" duration-ms="8126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Digital Downloads Page Is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart Page Is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[All Added Products are displayed]]>
+            </line>
+            <line>
+              <![CDATA[All Added Products are removed from Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@4ec4f3a0]" started-at="2024-01-29T14:16:35 IST" name="logout" finished-at="2024-01-29T14:16:36 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest@4ec4f3a0]" started-at="2024-01-29T14:16:36 IST" name="closeBrowser" finished-at="2024-01-29T14:16:36 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest -->
-    </test> <!-- Test -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

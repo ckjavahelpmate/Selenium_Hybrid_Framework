@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\User\git\MavenDemoWebShopHybrid\Selenium_05_Maven_DemoWebShop_Hybrid\BatchExecution.xml</span>
+                    <span>C:\Users\User\git\MavenDemoWebShopHybrid\Selenium_05_Maven_DemoWebShop_Hybrid\CrossBrowserEXecution.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">14 methods, 3 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest" class="method navigator-link" hash-for-method="addProductToWishList">addProductToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest" class="method navigator-link" hash-for-method="addProductToWishList">addProductToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest" class="method navigator-link" hash-for-method="addProductToWishList">addProductToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,7 +138,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest" class="method navigator-link" hash-for-method="addProductToWishList">addProductToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest" class="method navigator-link" hash-for-method="register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)">register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest" class="method navigator-link" hash-for-method="register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)">register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest" class="method navigator-link" hash-for-method="register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -129,7 +168,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest" class="method navigator-link" hash-for-method="register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)">register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest" class="method navigator-link" hash-for-method="register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest" class="method navigator-link" hash-for-method="register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)">register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -144,6 +193,124 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToWishList">
+                  </a> <!-- addProductToWishList -->
+                  <span class="method-name">addProductToWishList</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[ text() = &apos;Fiction EX&apos;]&quot;}
+  (Session info: chrome=120.0.6099.227)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12d4eb1ecff784b3081354904a72e1c8, findElement {using=xpath, value=//a[ text() = &apos;Fiction EX&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53831/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12d4eb1ecff784b3081354904a72e1c8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+	at com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.addProductToWishList(TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.java:50)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToWishList">
+                  </a> <!-- addProductToWishList -->
+                  <span class="method-name">addProductToWishList</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.83)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b9b3543f96b4d0634bc2730a1d3a375e, clickElement {id=A9314D1622EAC39CB0D587160CD541DB_element_95}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53876}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53876/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b9b3543f96b4d0634bc2730a1d3a375e)] -&gt; xpath: //a[ @href = &apos;/desktops&apos;]]
+Session ID: b9b3543f96b4d0634bc2730a1d3a375e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList(TC004_VerifyUsrIsAbleToPlaceOrderTest.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToWishList">
+                  </a> <!-- addProductToWishList -->
+                  <span class="method-name">addProductToWishList</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.227)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5761f1ce12e20b0eb86581a8c5f685ef, clickElement {id=D262F10E950EC0A65BF836AFD7B26DA3_element_93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53832/devtoo..., se:cdpVersion: 120.0.6099.227, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5761f1ce12e20b0eb86581a8c5f685ef)] -&gt; xpath: //a[ @href = &apos;/desktops&apos;]]
+Session ID: 5761f1ce12e20b0eb86581a8c5f685ef
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList(TC004_VerifyUsrIsAbleToPlaceOrderTest.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -157,14 +324,6 @@
                   <span class="method-name">addProductToWishList</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="addProductToWishList">
@@ -190,6 +349,22 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)">
+                  </a> <!-- register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)">
+                  </a> <!-- register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)">
                   </a> <!-- register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123) -->
                   <span class="method-name">register</span>
@@ -206,10 +381,41 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)">
+                  </a> <!-- register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)">
                   </a> <!-- register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123) -->
                   <span class="method-name">register</span>
                   <span class="parameters">(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)">
+                  </a> <!-- register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToWishList">
+                  </a> <!-- addProductToWishList -->
+                  <span class="method-name">addProductToWishList</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,20 +423,31 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\git\MavenDemoWebShopHybrid\Selenium_05_Maven_DemoWebShop_Hybrid\BatchExecution.xml</span>
+            <span class="header-content">C:\Users\User\git\MavenDemoWebShopHybrid\Selenium_05_Maven_DemoWebShop_Hybrid\CrossBrowserEXecution.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest&quot;/&gt;
+      &lt;class name=&quot;com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest&quot;/&gt;
       &lt;class name=&quot;com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest&quot;/&gt;
       &lt;class name=&quot;com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest&quot;/&gt;
-      &lt;class name=&quot;com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest&quot;/&gt;
+      &lt;class name=&quot;com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest&quot;/&gt;
+      &lt;class name=&quot;com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +459,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">ChromeTest (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,36 +488,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'register')
-data.setCell(0, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
-data.setCell(0, 3, 7934);
+data.setCell(0, 1, 'addProductToWishList')
+data.setCell(0, 2, 'com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest')
+data.setCell(0, 3, 23125);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'register')
-data.setCell(1, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
-data.setCell(1, 3, 6487);
+data.setCell(1, 1, 'addProductToWishList')
+data.setCell(1, 2, 'com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest')
+data.setCell(1, 3, 21129);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'register')
-data.setCell(2, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
-data.setCell(2, 3, 6201);
+data.setCell(2, 1, 'addProductToWishList')
+data.setCell(2, 2, 'com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest')
+data.setCell(2, 3, 21012);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'register')
 data.setCell(3, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
-data.setCell(3, 3, 6016);
+data.setCell(3, 3, 13640);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addProductToWishList')
-data.setCell(4, 2, 'com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest')
-data.setCell(4, 3, 5742);
+data.setCell(4, 1, 'register')
+data.setCell(4, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(4, 3, 12872);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'addProductToWishList')
-data.setCell(5, 2, 'com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest')
-data.setCell(5, 3, 3181);
+data.setCell(5, 1, 'register')
+data.setCell(5, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(5, 3, 12051);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'register')
+data.setCell(6, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(6, 3, 11315);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'register')
+data.setCell(7, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(7, 3, 8142);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addProductToWishList')
+data.setCell(8, 2, 'com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest')
+data.setCell(8, 3, 8126);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'register')
+data.setCell(9, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(9, 3, 7936);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addProductToWishList')
+data.setCell(10, 2, 'com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest')
+data.setCell(10, 3, 7059);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'register')
+data.setCell(11, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(11, 3, 6630);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'register')
+data.setCell(12, 2, 'com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest')
+data.setCell(12, 3, 6467);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addProductToWishList')
+data.setCell(13, 2, 'com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest')
+data.setCell(13, 3, 4715);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -326,7 +578,7 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</span>
+              <span class="reporter-method-name">register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Home Page is Displayed</span>
                 <span class="reporter-method-output">Register Page is Displayed</span>
@@ -334,7 +586,7 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</span>
+              <span class="reporter-method-name">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Home Page is Displayed</span>
                 <span class="reporter-method-output">Register Page is Displayed</span>
@@ -351,6 +603,36 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page is Displayed</span>
+                <span class="reporter-method-output">Register Page is Displayed</span>
+                <span class="reporter-method-output">User Registeredm successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductToWishList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Computers Page Is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page is Displayed</span>
+                <span class="reporter-method-output">Register Page is Displayed</span>
+                <span class="reporter-method-output">User Registeredm successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page is Displayed</span>
+                <span class="reporter-method-output">Register Page is Displayed</span>
+                <span class="reporter-method-output">User Registeredm successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Home Page is Displayed</span>
@@ -358,17 +640,64 @@ return data;
                 <span class="reporter-method-output">User Registeredm successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductToWishList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Digital Downloads Page Is Displayed</span>
+                <span class="reporter-method-output">Shopping Cart Page Is Displayed</span>
+                <span class="reporter-method-output">All Added Products are displayed</span>
+                <span class="reporter-method-output">All Added Products are removed from Cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page is Displayed</span>
+                <span class="reporter-method-output">Register Page is Displayed</span>
+                <span class="reporter-method-output">User Registeredm successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductToWishList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Books Page Is Displayed</span>
+                <span class="reporter-method-output">Wish List Page is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductToWishList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Computers Page Is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</span>
+              <span class="ignored-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
@@ -382,103 +711,244 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launchBrowser(Chrome)</span>
-                <span class="method-start">200 ms</span>
+                <span class="method-start">262 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launchBrowser(Chrome)</span>
-                <span class="method-start">200 ms</span>
+                <span class="method-start">262 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(Edge)</span>
+                <span class="method-start">262 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(Edge)</span>
+                <span class="method-start">262 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(Edge)</span>
+                <span class="method-start">262 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">263 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</span>
-                <span class="method-start">877 ms</span>
+                <span class="method-start">1214 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(Sheela, Gowda, Sheela@gmail.com, Sheela@123, Sheela@123)</span>
+                <span class="method-start">1214 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(public void com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList()...)</span>
+                <span class="method-start">6394 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">login(public void com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.add...)</span>
-                <span class="method-start">4500 ms</span>
+                <span class="method-start">6748 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(public void com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest.addProductToWishList()...)</span>
+                <span class="method-start">7088 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">login(public void com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest.addPro...)</span>
-                <span class="method-start">4727 ms</span>
+                <span class="method-start">7268 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductToWishList</span>
+                <span class="method-start">8432 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(public void com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest.addPro...)</span>
+                <span class="method-start">8582 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addProductToWishList</span>
-                <span class="method-start">5807 ms</span>
+                <span class="method-start">8865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">login(public void com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest.add...)</span>
+                <span class="method-start">8967 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductToWishList</span>
+                <span class="method-start">9016 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addProductToWishList</span>
-                <span class="method-start">6029 ms</span>
+                <span class="method-start">9362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductToWishList</span>
+                <span class="method-start">10756 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addProductToWishList</span>
+                <span class="method-start">11298 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</span>
-                <span class="method-start">8814 ms</span>
+                <span class="method-start">14090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(Leela, Nayak, Leela@gmail.com, Leela@123, Leela@123)</span>
+                <span class="method-start">14855 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">logout</span>
-                <span class="method-start">8989 ms</span>
+                <span class="method-start">16017 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">9826 ms</span>
+                <span class="method-start">17419 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">logout</span>
-                <span class="method-start">11772 ms</span>
+                <span class="method-start">17489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">17817 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">12477 ms</span>
+                <span class="method-start">18352 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">18582 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)</span>
-                <span class="method-start">15303 ms</span>
+                <span class="method-start">22027 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
-                <span class="method-start">21505 ms</span>
+                <span class="method-name">register(Mala, Gowda, Mala@gmail.com, Mala@123, Mala@123)</span>
+                <span class="method-start">22998 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">29828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">30624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">30896 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">31538 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">32549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">33840 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
+                <span class="method-start">34079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(Urmila, Jain, Urmila@gmail.com, Urmila@123, Urmila@123)</span>
+                <span class="method-start">34314 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">27550 ms</span>
+                <span class="method-start">40961 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

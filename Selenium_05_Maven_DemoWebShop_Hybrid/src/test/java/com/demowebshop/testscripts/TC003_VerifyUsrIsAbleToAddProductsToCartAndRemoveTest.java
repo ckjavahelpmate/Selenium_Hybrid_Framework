@@ -8,6 +8,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.demowebshop.elementrepository.DigitalDownloadsPage;
 import com.demowebshop.elementrepository.HomePage;
 import com.demowebshop.elementrepository.ShoppingCartPage;
@@ -28,6 +29,7 @@ public class TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest extends BaseT
 //		4.Verify Digital Downloads Page is Displayed
 		Assert.assertEquals(driver.getTitle(), PageTitles.DIGITAL_DOWNLOADS_PAGE, "Digital Downloads Page Is not Displayed");
 		Reporter.log("Digital Downloads Page Is Displayed", true);
+		extentTest.log(Status.INFO, "Digital Downloads Page Is Displayed");
 		
 //		5.Add all Products to cart
 		DigitalDownloadsPage digitalDownloadsPage = new DigitalDownloadsPage(driver);
@@ -44,12 +46,14 @@ public class TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest extends BaseT
 //		7.Verify Shopping Cart Page is Displayed
 		Assert.assertEquals(driver.getTitle(), PageTitles.SHOPPING_CART_PAGE, "Shopping Cart Page Is not Displayed");
 		Reporter.log("Shopping Cart Page Is Displayed", true);
+		extentTest.log(Status.INFO, "Shopping Cart Page Is Displayed");
 		
 //		8.Verify ALl the added Product are displayed in Shopping Cart
 		ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
 		List<WebElement> productNames = shoppingCartPage.getProductName() ;
 		Assert.assertEquals( numberOfProducts , productNames.size() , "All Added Products are not displayed");
 		Reporter.log("All Added Products are displayed", true );
+		extentTest.log(Status.INFO, "All Added Products are displayed");
 		
 //		9.Click on remove check boxes of all added Products
 		List<WebElement> remove = shoppingCartPage.getRemove();
@@ -63,6 +67,7 @@ public class TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest extends BaseT
 //		11.Verify all added Products are removed or shopping cart empty is displayed
 		Assert.assertTrue(shoppingCartPage.getResult().isDisplayed() , "All Added Products are not removed from Cart");
 		Reporter.log("All Added Products are removed from Cart", true );
+		extentTest.log(Status.INFO, "All Added Products are removed from Cart");
 
 //		12.logout
 //		13.close the Browser

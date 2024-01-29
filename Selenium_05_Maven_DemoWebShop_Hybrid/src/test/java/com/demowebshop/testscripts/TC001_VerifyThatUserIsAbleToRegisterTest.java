@@ -7,6 +7,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.demowebshop.elementrepository.HomePage;
 import com.demowebshop.elementrepository.RegisterPage;
 import com.demowebshop.genericlibrary.BaseTest;
@@ -31,6 +32,7 @@ public class TC001_VerifyThatUserIsAbleToRegisterTest
 //		3.Verify Register Page is Displayed
 		Assert.assertEquals(driver.getTitle(), PageTitles.REGISTER_PAGE,"Register Page Is Not Displayed");
 		Reporter.log("Register Page is Displayed", true);
+		BaseTest.extentTest.log(Status.INFO, "Register Page is Displayed");
 		
 //		4.Enter Valid Credentials and click on Register Button
 		RegisterPage registerPage = new RegisterPage(driver) ;
@@ -47,6 +49,7 @@ public class TC001_VerifyThatUserIsAbleToRegisterTest
 		String actualEmail = homePage.getLogedEmail().getText() ;
 		Assert.assertEquals(actualEmail, modifiedEmail , "User is not Registered");
 		Reporter.log("User Registeredm successfully", true );
+		BaseTest.extentTest.log(Status.INFO, "User Registeredm successfully");
 		
 		
 //		6.Logout

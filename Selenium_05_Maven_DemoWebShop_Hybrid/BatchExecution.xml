@@ -6,6 +6,7 @@
       <class name="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest"/>
       <class name="com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest"/>
       <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest"/>
+      <class name="com.demowebshop.testscripts.TC004_VerifyUsrIsAbleToPlaceOrderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
