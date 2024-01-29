@@ -1,5 +1,6 @@
 package com.demowebshop.genericlibrary;
 
+import java.lang.reflect.Method;
 import java.time.Duration;
 
 import org.openqa.selenium.Keys;
@@ -10,11 +11,18 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.demowebshop.elementrepository.HomePage;
 import com.demowebshop.elementrepository.LoginPage;
 
@@ -24,6 +32,16 @@ public class BaseTest {
 	public WebDriver driver;
 	public static WebDriver listenerDriver;
 	HomePage homePage;
+	public static ExtentSparkReporter sparkReporter;
+	public static ExtentReports extentReports;
+	public static ExtentTest extentTest;
+
+	@BeforeSuite
+	public void beforeSuite() {
+		sparkReporter = new ExtentSparkReporter("./Reports/" + commonUtility.getDateAndTime() + ".hmtl");
+		extentReports = new ExtentReports();
+		extentReports.attachReporter(sparkReporter);
+	}
 
 	@Parameters("Browser")
 	@BeforeClass(alwaysRun = true)
@@ -45,7 +63,10 @@ public class BaseTest {
 	}
 
 	@BeforeMethod(alwaysRun = true)
-	public void login() {
+	public void login(Method method) {
+
+		extentTest = extentReports.createTest(method.getName());
+
 		String email = dataUtility.getDataFromProperties("email");
 		String password = dataUtility.getDataFromProperties("password");
 
@@ -55,12 +76,14 @@ public class BaseTest {
 
 		Assert.assertEquals(driver.getTitle(), PageTitles.LOGIN_PAGE, "Login Page is not Displayed");
 		Reporter.log("Login page is displayed", true);
+		extentTest.log(Status.INFO, "Login page is displayed");
 
 		new LoginPage(driver).getEmail().sendKeys(email, Keys.TAB, password, Keys.TAB, Keys.ENTER);
 
 		String logedEmail = homePage.getLogedEmail().getText();
-		Assert.assertEquals( logedEmail , email , "User is not Loged in");
+		Assert.assertEquals(logedEmail, email, "User is not Loged in");
 		Reporter.log("User loged In", true);
+		extentTest.log(Status.INFO, "User loged In");
 	}
 
 	@AfterMethod(alwaysRun = true)
@@ -71,5 +94,10 @@ public class BaseTest {
 	@AfterClass(alwaysRun = true)
 	public void closeBrowser() {
 		driver.close();
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+		extentReports.flush();
 	}
 }

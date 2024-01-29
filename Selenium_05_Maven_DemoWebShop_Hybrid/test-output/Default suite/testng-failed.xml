@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemove">
+      <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest">
         <methods>
-          <include name="addProductToWishList"/>
+          <include name="afterSuite"/>
           <include name="launchBrowser"/>
+          <include name="addProductToWishList"/>
+          <include name="beforeSuite"/>
           <include name="login"/>
           <include name="logout"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemove -->
+      </class> <!-- com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

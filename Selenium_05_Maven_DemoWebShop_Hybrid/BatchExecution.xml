@@ -3,9 +3,9 @@
 <suite name="Suite" parallel="methods">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegister"/>
-      <class name="com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemove"/>
-      <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemove"/>
+      <class name="com.demowebshop.testscripts.TC001_VerifyThatUserIsAbleToRegisterTest"/>
+      <class name="com.demowebshop.testscripts.TC003_VerifyUsrIsAbleToAddProductsToCartAndRemoveTest"/>
+      <class name="com.demowebshop.testscripts.TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

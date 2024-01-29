@@ -2,6 +2,7 @@ package com.demowebshop.genericlibrary;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Random;
 
@@ -14,13 +15,19 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 
 public class CommonUtility {
-	public void takeScreenShot(WebDriver driver, String name) {
+	public String takeScreenShot(WebDriver driver) {
+		String path = FilePaths.SCREENSHOTS_PATH + getDateAndTime() + ".png" ;
 		try {
 			FileHandler.copy(((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE),
-					new File(FilePaths.SCREENSHOTS_PATH + name + ".png"));
+					new File(path));
 		} catch (WebDriverException | IOException e) {
 			e.printStackTrace();
 		}
+		return "."+path ;
+	}
+	
+	public String getDateAndTime() {
+		return LocalDateTime.now().toString().replace(":", "-");
 	}
 
 	public int getRandom() {

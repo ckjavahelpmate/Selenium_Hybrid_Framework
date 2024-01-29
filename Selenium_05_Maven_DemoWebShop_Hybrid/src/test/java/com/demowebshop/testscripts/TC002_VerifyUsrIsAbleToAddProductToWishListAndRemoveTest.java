@@ -5,6 +5,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.demowebshop.elementrepository.BooksPage;
 import com.demowebshop.elementrepository.FictionExPage;
 import com.demowebshop.elementrepository.HomePage;
@@ -26,6 +27,7 @@ public class TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest extends Ba
 //		4.Verify Book Page is Displayed
 		Assert.assertEquals(driver.getTitle(), PageTitles.BOOKS_PAGE, "Books Page Is not Displayed");
 		Reporter.log("Books Page Is Displayed", true);
+		extentTest.log(Status.INFO, "Books Page Is Displayed");
 		
 //		5.Click on Fiction EX Book link
 		BooksPage booksPage = new BooksPage(driver) ;
@@ -41,11 +43,13 @@ public class TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest extends Ba
 //		8.Verify Wish List Page is Displayed
 		Assert.assertEquals(driver.getTitle(), PageTitles.WISHLIST_PAGE , "Wish List Page is not Displayed");
 		Reporter.log("Wish List Page is Displayed" , true );
+		extentTest.log(Status.INFO, "Wish List Page is Displayed");
 		
 //		9.verify added product is displayed in wish list
 		WishListPage wishListPage = new WishListPage(driver) ;
 		Assert.assertTrue(wishListPage.getFictionEX().isDisplayed() , "Added Product is not displayed in wish List");
 		Reporter.log("Added Product is displayed in wish List", true );
+		extentTest.log(Status.INFO, "Added Product is displayed in wish List");
 		
 //		10.Click on remove check box of added Product
 		wishListPage.getRemoveFromWishList().click();
@@ -56,6 +60,8 @@ public class TC002_VerifyUsrIsAbleToAddProductToWishListAndRemoveTest extends Ba
 //		12.Verify added Product is removed from wish list
 		Assert.assertTrue( wishListPage.getResult().isDisplayed() , "Added Product is not removed");
 		Reporter.log("Added Product is removed", true );
+		extentTest.log(Status.INFO, "Added Product is removed");
+		extentTest.addScreenCaptureFromPath(commonUtility.takeScreenShot(driver), "AddToWishList");
 		
 //		13.logout
 //		14.close the Browser

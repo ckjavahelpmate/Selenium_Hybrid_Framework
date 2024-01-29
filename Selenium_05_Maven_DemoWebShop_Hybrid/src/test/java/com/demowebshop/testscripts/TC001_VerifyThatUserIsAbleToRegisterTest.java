@@ -48,8 +48,10 @@ public class TC001_VerifyThatUserIsAbleToRegisterTest
 		Assert.assertEquals(actualEmail, modifiedEmail , "User is not Registered");
 		Reporter.log("User Registeredm successfully", true );
 		
+		
 //		6.Logout
-		baseTest.logout();
+//		baseTest.logout();
+		homePage.getLogoutLink().click();
 		
 //		7.close the browser
 		baseTest.closeBrowser();

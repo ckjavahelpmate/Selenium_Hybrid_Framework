@@ -9,7 +9,9 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class ListenerImplementation implements ITestListener {
+import com.aventstack.extentreports.Status;
+
+public class ListenerImplementation extends BaseTest implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) 
@@ -23,6 +25,8 @@ public class ListenerImplementation implements ITestListener {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		extentTest.log(Status.FAIL,result.getName() + " is failed" );
+		extentTest.addScreenCaptureFromPath("."+path, result.getName());
 	}
 	
 	
